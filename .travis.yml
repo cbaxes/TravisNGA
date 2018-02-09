@@ -4,8 +4,6 @@ jdk:
 addons:
   sonarcloud:
     organization: "cbaxes-github" # the key of the org you chose at step #3
-    token:
-      secure: ********* # encrypted value of your token
 script:
   - ant build
   - sonar-scanner
